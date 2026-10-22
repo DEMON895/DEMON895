@@ -12,7 +12,7 @@
 
 </div>
 
-## `> whoami`
+## `> Who Am I`
 
 I'm Abhinav, an engineering student interested in **hardware, operating systems, Linux, AI, and game development**.
 
