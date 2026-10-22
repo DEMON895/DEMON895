@@ -14,16 +14,11 @@
 
 ---
 
-## <code><img src="https://img.shields.io/badge/GREEN-39FF14?style=flat-square&labelColor=101820" alt="" /> &gt; whoami</code>
+## `> whoami`
 
-```text
-┌─[ DEMON895@github ]──────────────────────────────────────────┐
-│ USER    : Abhinav                                            │
-│ ROLE    : Engineering student / builder-in-training          │
-│ INTEREST: Hardware • Operating Systems • AI • Game Dev       │
-│ STATUS  : <LEARNING / BUILDING / DEBUGGING>                   │
-└──────────────────────────────────────────────────────────────┘
-```
+<div align="center">
+  <img src="./assets/terminal-panel.svg" width="100%" alt="Terminal identity panel with individually colored text and game-style HUD elements"/>
+</div>
 
 I'm exploring the space where **hardware, operating systems, software, AI, and game development** meet.
 
@@ -40,9 +35,23 @@ I'm exploring the space where **hardware, operating systems, software, AI, and g
 
 > **Terminal palette:** 🟢 `#39FF14` ready / active · 🟡 `#FFCC00` learning / in progress · 🔴 `#FF4D6D` alerts / next steps · 🔵 `#39C5FF` system information
 
-*GitHub doesn't render arbitrary colored Markdown text or inline HTML styling consistently, so the palette is expressed through badges, status labels, and terminal-inspired structure instead of relying on unsupported text colors.*
+*GitHub doesn't render arbitrary colored Markdown text consistently. The identity panel above is a custom SVG, so individual text labels can be green, yellow, red, and cyan without coloring the entire badge or block.*
 
-## <img src="https://img.shields.io/badge/02-39C5FF?style=flat-square&labelColor=101820" alt="Section 02"/> `> featured_builds`
+### `> HUD / player_status`
+
+<div align="center">
+  <img src="./assets/game-hud.svg" width="100%" alt="Game developer inspired HUD panel with hitboxes, player status, mission progress, and colored terminal text"/>
+</div>
+
+### `> QUEST_LOG / progression`
+
+<div align="center">
+  <img src="./assets/quest-board.svg" width="100%" alt="Game-inspired quest board showing active projects, learning quests, and development goals"/>
+</div>
+
+
+
+## `> 02 // featured_builds`
 
 <details open>
 <summary><b>🧰 Raspberry Pi Cyberdeck | Main hardware project</b></summary>
@@ -89,7 +98,7 @@ A project focused on helping users report and find lost items.
 
 > **More builds incoming.** I prefer showing projects with real code, clear documentation, and working demos over listing tools without context.
 
-## <img src="https://img.shields.io/badge/03-FFCC00?style=flat-square&labelColor=101820" alt="Section 03"/> `> system_profile`
+## `> 03 // system_profile`
 
 <table>
 <tr>
@@ -138,7 +147,7 @@ Learning Linux by using it, troubleshooting it, and building with it.
 <img src="https://skillicons.dev/icons?i=windows,linux,bash,raspberrypi,python,git&theme=dark" alt="Windows, Linux, Bash, Raspberry Pi, Python, and Git icons"/>
 </div>
 
-## <img src="https://img.shields.io/badge/04-39FF14?style=flat-square&labelColor=101820" alt="Section 04"/> `> tools_and_technologies`
+## `> 04 // tools_and_technologies`
 
 <div align="center">
 
@@ -155,7 +164,7 @@ Learning Linux by using it, troubleshooting it, and building with it.
 
 *These labels describe what I'm learning or exploring, not equal proficiency in every technology.*
 
-## <img src="https://img.shields.io/badge/05-FF4D6D?style=flat-square&labelColor=101820" alt="Section 05"/> `> current_objectives`
+## `> 05 // current_objectives`
 
 - Strengthen programming fundamentals and problem-solving.
 - Practice data structures and algorithms for SDE placements.
@@ -164,7 +173,7 @@ Learning Linux by using it, troubleshooting it, and building with it.
 - Improve the cyberdeck's hardware/software integration.
 - Document projects so others can reproduce and learn from them.
 
-## <img src="https://img.shields.io/badge/06-39C5FF?style=flat-square&labelColor=101820" alt="Section 06"/> `> github_telemetry`
+## `> 06 // github_telemetry`
 
 <div align="center">
 
@@ -176,7 +185,7 @@ Learning Linux by using it, troubleshooting it, and building with it.
 
 </div>
 
-## <img src="https://img.shields.io/badge/07-39FF14?style=flat-square&labelColor=101820" alt="Section 07"/> `> connect`
+## `> 07 // connect`
 
 I'm interested in learning from people building with Linux, embedded systems, networking, AI, and game development.
 
