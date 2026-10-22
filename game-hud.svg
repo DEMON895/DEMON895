@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="290" viewBox="0 0 1100 290" role="img" aria-labelledby="title desc">
+<title id="title">Game developer HUD panel</title>
+<desc id="desc">A game-style interface showing hitboxes, a player status panel, objective tracking, and multicolor terminal text.</desc>
+<rect x="2" y="2" width="1096" height="286" rx="14" fill="#0b1016" stroke="#293946" stroke-width="2"/>
+<text x="24" y="31" font-family="monospace" font-size="14" fill="#39ff14">HUD.SYS</text>
+<text x="1076" y="31" text-anchor="end" font-family="monospace" font-size="12" fill="#9aabba">DEBUG OVERLAY // PREVIEW</text>
+<path d="M24 44H1076" stroke="#293946"/>
+<!-- Targeting / hitbox schematic -->
+<rect x="24" y="62" width="320" height="196" rx="8" fill="#101a23" stroke="#344754"/>
+<text x="42" y="86" font-family="monospace" font-size="12" fill="#39c5ff">HITBOX_DEBUG</text>
+<rect x="119" y="104" width="120" height="116" fill="none" stroke="#39ff14" stroke-width="2" stroke-dasharray="7 5"/>
+<rect x="143" y="126" width="72" height="72" rx="5" fill="#173329" stroke="#39ff14" stroke-width="2"/>
+<circle cx="179" cy="147" r="12" fill="none" stroke="#ffcc00" stroke-width="2"/>
+<path d="M159 177L179 159L199 177" fill="none" stroke="#39c5ff" stroke-width="3"/>
+<path d="M179 96V111M179 213V229M104 162H119M239 162H254" stroke="#ff4d6d" stroke-width="2"/>
+<text x="42" y="242" font-family="monospace" font-size="11" fill="#9aabba">PLAYER COLLISION BOUNDS</text>
+<!-- Quest / status panel -->
+<rect x="364" y="62" width="346" height="196" rx="8" fill="#101a23" stroke="#344754"/>
+<text x="384" y="86" font-family="monospace" font-size="12" fill="#ffcc00">QUEST_LOG</text>
+<text x="384" y="117" font-family="monospace" font-size="13" fill="#dce8f2">MAIN QUEST</text>
+<text x="690" y="117" text-anchor="end" font-family="monospace" font-size="12" fill="#39ff14">ACTIVE</text>
+<text x="384" y="141" font-family="monospace" font-size="12" fill="#9aabba">Build the Raspberry Pi cyberdeck</text>
+<rect x="384" y="153" width="306" height="8" rx="4" fill="#273541"/>
+<rect x="384" y="153" width="112" height="8" rx="4" fill="#39ff14"/>
+<text x="384" y="185" font-family="monospace" font-size="12" fill="#dce8f2">SIDE QUEST</text>
+<text x="690" y="185" text-anchor="end" font-family="monospace" font-size="12" fill="#ffcc00">IN PROGRESS</text>
+<text x="384" y="209" font-family="monospace" font-size="12" fill="#9aabba">Ship a small playable game</text>
+<rect x="384" y="221" width="306" height="8" rx="4" fill="#273541"/>
+<rect x="384" y="221" width="64" height="8" rx="4" fill="#ffcc00"/>
+<!-- Stats panel -->
+<rect x="730" y="62" width="346" height="196" rx="8" fill="#101a23" stroke="#344754"/>
+<text x="750" y="86" font-family="monospace" font-size="12" fill="#ff4d6d">PLAYER_STATS</text>
+<text x="750" y="119" font-family="monospace" font-size="13" fill="#dce8f2">CURIOSITY</text>
+<text x="1055" y="119" text-anchor="end" font-family="monospace" font-size="13" fill="#39ff14">MAX</text>
+<text x="750" y="149" font-family="monospace" font-size="13" fill="#dce8f2">DEBUGGING</text>
+<text x="1055" y="149" text-anchor="end" font-family="monospace" font-size="13" fill="#39c5ff">GRINDING</text>
+<text x="750" y="179" font-family="monospace" font-size="13" fill="#dce8f2">LINUX XP</text>
+<text x="1055" y="179" text-anchor="end" font-family="monospace" font-size="13" fill="#ffcc00">FARMING</text>
+<text x="750" y="209" font-family="monospace" font-size="13" fill="#dce8f2">BUGS FOUND</text>
+<text x="1055" y="209" text-anchor="end" font-family="monospace" font-size="13" fill="#ff4d6d">INFINITE*</text>
+<text x="750" y="239" font-family="monospace" font-size="10" fill="#657989">*DEVELOPER EXPERIENCE MAY VARY</text>
+</svg>

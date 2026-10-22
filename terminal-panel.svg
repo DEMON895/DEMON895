@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="250" viewBox="0 0 1100 250" role="img" aria-labelledby="title desc">
+<title id="title">DEMON895 terminal identity</title>
+<desc id="desc">A terminal panel with separately colored status text, system labels, and neon outline.</desc>
+<defs>
+  <linearGradient id="border" x1="0" x2="1">
+    <stop offset="0" stop-color="#39ff14"/>
+    <stop offset=".52" stop-color="#39c5ff"/>
+    <stop offset="1" stop-color="#ff4d6d"/>
+  </linearGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="2.2" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect x="2" y="2" width="1096" height="246" rx="14" fill="#0b1016" stroke="#273440" stroke-width="2"/>
+<rect x="2" y="2" width="1096" height="38" rx="14" fill="#151e28"/>
+<path d="M2 40H1098" stroke="#2c3b47"/>
+<circle cx="23" cy="21" r="5" fill="#ff4d6d"/><circle cx="41" cy="21" r="5" fill="#ffcc00"/><circle cx="59" cy="21" r="5" fill="#39ff14"/>
+<text x="80" y="26" font-family="monospace" font-size="14" fill="#9aabba">DEMON895@github: ~/profile</text>
+<text x="1068" y="26" text-anchor="end" font-family="monospace" font-size="12" fill="#39ff14">● ONLINE</text>
+<text x="28" y="75" font-family="monospace" font-size="16" fill="#39ff14" filter="url(#glow)">root@DEMON895</text>
+<text x="180" y="75" font-family="monospace" font-size="16" fill="#dce8f2">:~$ whoami</text>
+<text x="28" y="111" font-family="monospace" font-size="17" font-weight="700" fill="#f0f6fc">Abhinav</text>
+<text x="130" y="111" font-family="monospace" font-size="15" fill="#39c5ff">ENGINEERING STUDENT</text>
+<text x="28" y="145" font-family="monospace" font-size="13" fill="#9aabba">FOCUS</text>
+<text x="100" y="145" font-family="monospace" font-size="14" fill="#39ff14">HARDWARE</text>
+<text x="210" y="145" font-family="monospace" font-size="14" fill="#9aabba">/</text>
+<text x="229" y="145" font-family="monospace" font-size="14" fill="#39c5ff">SYSTEMS</text>
+<text x="323" y="145" font-family="monospace" font-size="14" fill="#9aabba">/</text>
+<text x="342" y="145" font-family="monospace" font-size="14" fill="#ffcc00">GAME DEV</text>
+<text x="28" y="181" font-family="monospace" font-size="13" fill="#9aabba">STATUS</text>
+<text x="100" y="181" font-family="monospace" font-size="14" fill="#ffcc00">LEARNING</text>
+<text x="210" y="181" font-family="monospace" font-size="14" fill="#9aabba">→</text>
+<text x="231" y="181" font-family="monospace" font-size="14" fill="#39ff14">BUILDING</text>
+<text x="331" y="181" font-family="monospace" font-size="14" fill="#9aabba">→</text>
+<text x="352" y="181" font-family="monospace" font-size="14" fill="#ff4d6d">DEBUGGING</text>
+<rect x="730" y="61" width="335" height="153" rx="8" fill="#0f1821" stroke="#30414e"/>
+<text x="750" y="85" font-family="monospace" font-size="13" fill="#39c5ff">SYSTEM CHECK</text>
+<text x="750" y="115" font-family="monospace" font-size="13" fill="#dce8f2">CYBERDECK</text>
+<text x="1045" y="115" text-anchor="end" font-family="monospace" font-size="13" fill="#39ff14">IN PROGRESS</text>
+<text x="750" y="145" font-family="monospace" font-size="13" fill="#dce8f2">LINUX SKILLS</text>
+<text x="1045" y="145" text-anchor="end" font-family="monospace" font-size="13" fill="#ffcc00">LOADING...</text>
+<text x="750" y="175" font-family="monospace" font-size="13" fill="#dce8f2">GAME DEV</text>
+<text x="1045" y="175" text-anchor="end" font-family="monospace" font-size="13" fill="#39c5ff">QUEST ACTIVE</text>
+<path d="M28 214H690" stroke="url(#border)" stroke-width="2"/>
+<text x="28" y="236" font-family="monospace" font-size="12" fill="#9aabba">LEARN  //  BUILD  //  TEST  //  REPEAT</text>
+</svg>
