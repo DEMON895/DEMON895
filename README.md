@@ -12,7 +12,7 @@
 
 </div>
 
-## `> Who Am I`
+## `> whoami`
 
 I'm Abhinav, an engineering student interested in **hardware, operating systems, Linux, AI, and game development**.
 
@@ -35,6 +35,8 @@ A compact portable Linux workstation for offline knowledge, networking experimen
 - **Display:** 5-inch main screen plus two 0.96-inch OLED status displays.
 - **Software:** Linux/XFCE, Kiwix offline library, Python, Scapy, and shell scripts.
 - **Goal:** bring useful tools, system status, and connectivity into one portable setup.
+
+**Focus areas:** lightweight Linux performance, Pi ↔ ESP32-S3 communication, and a useful OLED telemetry interface.
 
 </details>
 
@@ -72,6 +74,8 @@ I'm partway through my Linux journey and have become increasingly proficient thr
 - Terminal commands and shell scripting
 - Networking tools and troubleshooting
 - Raspberry Pi and embedded Linux experiments
+- Responsible, lab-based packet analysis with tools such as Scapy
+- Responsible, lab-based packet analysis with tools such as Scapy
 
 **Current direction:** moving from Linux learner toward confident daily use and deeper system understanding.
 
@@ -117,6 +121,8 @@ I'm partway through my Linux journey and have become increasingly proficient thr
 </div>
 
 ## 🔗 Connect
+
+I'm always interested in learning from other builders working on Linux, embedded systems, networking, AI, and game development.
 
 <div align="center">
 
