@@ -75,7 +75,6 @@ I'm partway through my Linux journey and have become increasingly proficient thr
 - Networking tools and troubleshooting
 - Raspberry Pi and embedded Linux experiments
 - Responsible, lab-based packet analysis with tools such as Scapy
-- Responsible, lab-based packet analysis with tools such as Scapy
 
 **Current direction:** moving from Linux learner toward confident daily use and deeper system understanding.
 
