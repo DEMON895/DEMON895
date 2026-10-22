@@ -1,171 +1,89 @@
 <div align="center">
 
-# `DEMON895 // FIELD TERMINAL`
+<img src="https://capsule-render.vercel.app/api?type=venom&height=180&color=0:07111f,50:12313a,100:00f5d4&text=DEMON895&fontColor=eaffff&fontSize=56&fontAlignY=43&desc=HARDWARE%20%2F%20SYSTEMS%20%2F%20GAMES&descAlignY=65&descSize=13&animation=fadeIn" width="100%" alt="Cyberdeck themed animated header"/>
 
-**PORTABLE SYSTEMS · EDGE COMPUTING · GAME DEVELOPMENT**
+<a href="https://github.com/DEMON895">
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=16&duration=3000&pause=900&color=00F5D4&center=true&vCenter=true&width=650&lines=ENGINEERING+STUDENT;BUILDING+A+RASPBERRY+PI+CYBERDECK;WINDOWS+POWER+USER+%7C+LINUX+IN+PROGRESS;LEARN.+BUILD.+DEBUG.+REPEAT." alt="Animated typing tagline"/>
+</a>
 
 [![GitHub](https://img.shields.io/badge/GitHub-DEMON895-0b1220?style=for-the-badge&logo=github&logoColor=00f5d4)](https://github.com/DEMON895)
-[![Main Project](https://img.shields.io/badge/PRIMARY_BUILD-CYBERDECK-0b1220?style=for-the-badge&logo=raspberrypi&logoColor=00f5d4)](#-primary-project-cyberdeck)
-[![Status](https://img.shields.io/badge/STATUS-BUILDING-0b1220?style=for-the-badge&logo=gnubash&logoColor=00f5d4)](#-current-build-queue)
+[![Main Project](https://img.shields.io/badge/MAIN_PROJECT-CYBERDECK-0b1220?style=for-the-badge&logo=raspberrypi&logoColor=00f5d4)](#-what-im-building)
+[![Systems](https://img.shields.io/badge/SYSTEMS-WINDOWS%20%2F%20LINUX-0b1220?style=for-the-badge&logo=linux&logoColor=00f5d4)](#-operating-systems)
 
 </div>
 
-```text
-┌──────────────────────────────────────────────────────────────┐
-│ DEMON895 / PORTABLE COMPUTING LAB                            │
-├──────────────────────────────────────────────────────────────┤
-│ OPERATOR    : Abhinav                                        │
-│ MAIN BUILD  : Raspberry Pi 3B+ Cyberdeck                     │
-│ EDGE NODE   : ESP32-S3 WROOM-1 N16R8                         │
-│ INTERESTS   : Linux / Embedded / AI / Networking / Games     │
-│ MODE        : LEARN -> BUILD -> DEBUG -> IMPROVE             │
-└──────────────────────────────────────────────────────────────┘
-```
+## `> whoami`
 
-## `01 // ABOUT`
+I'm Abhinav, an engineering student interested in **hardware, operating systems, Linux, AI, and game development**.
 
-Engineering student interested in building practical systems where **hardware, software, Linux, and edge computing** meet.
+- 🧰 Building a portable Raspberry Pi cyberdeck with an ESP32-S3 companion node.
+- 🪟 Experienced with Windows versions and lightweight/custom Windows builds.
+- 🐧 Actively learning Linux and getting increasingly comfortable with daily use and system configuration.
+- 🎮 Exploring game development while strengthening software engineering fundamentals.
 
-My main project is a portable **Raspberry Pi cyberdeck** with a multi-display interface, an ESP32-S3 companion node, offline reference material, and networking tools. Alongside it, I'm learning software development, AI/ML, and game development while strengthening my programming fundamentals.
+> `SYSTEM NOTE:` Learn the layers. Build the system. Improve the design.
 
-- **Main focus:** Cyberdeck engineering, Linux, embedded systems, and networking
-- **Learning:** Python, C/C++, Java, web development, AI/ML, and game development
-- **Goal:** Build useful projects, understand how they work, and document the process
+## ⚡ What I'm Building
 
-> Learn the layers. Build the system. Improve the design.
+<details open>
+<summary><b>🧰 Raspberry Pi Cyberdeck · Main Project</b></summary>
 
----
+A compact portable Linux workstation for offline knowledge, networking experiments, hardware telemetry, and a custom multi-display interface.
 
-## `02 // PRIMARY PROJECT: CYBERDECK`
+- **Core:** Raspberry Pi 3B+ with 1 GB RAM and 64 GB storage.
+- **Companion:** ESP32-S3 WROOM-1 N16R8 for connectivity and edge experiments.
+- **Display:** 5-inch main screen plus two 0.96-inch OLED status displays.
+- **Software:** Linux/XFCE, Kiwix offline library, Python, Scapy, and shell scripts.
+- **Goal:** bring useful tools, system status, and connectivity into one portable setup.
 
-A compact, portable Linux workstation for offline knowledge, experimentation, networking labs, and hardware telemetry.
+</details>
 
-### SYSTEM ARCHITECTURE
-
-```text
-                  ┌───────────────────────┐
-                  │    5-INCH DISPLAY     │
-                  │       MAIN UI         │
-                  └───────────┬───────────┘
-                              │
-┌─────────────────────────────▼─────────────────────────────┐
-│                    RASPBERRY PI 3B+                       │
-│  Linux / XFCE / Kiwix / Python / Scapy / Main Controller  │
-└─────────────────────────────┬─────────────────────────────┘
-                              │ USB SERIAL
-┌─────────────────────────────▼─────────────────────────────┐
-│                       ESP32-S3                            │
-│          Connectivity experiments / Edge telemetry       │
-└─────────────────────────────┬─────────────────────────────┘
-                              │
-                  ┌───────────┴───────────┐
-                  │                       │
-           ┌──────▼──────┐         ┌──────▼──────┐
-           │ OLED 01     │         │ OLED 02     │
-           │ Companion / │         │ Link status │
-           │ System state│         │ / Telemetry │
-           └─────────────┘         └─────────────┘
-```
-
-### HARDWARE
-
-| Component | Purpose |
-|---|---|
-| Raspberry Pi 3B+ · 1 GB RAM | Main computer and controller |
-| 64 GB storage | Operating system, tools, scripts, offline resources |
-| ESP32-S3 WROOM-1 N16R8 | Companion node for connectivity and edge experiments |
-| 5-inch display | Main interface |
-| Two 0.96-inch OLED displays | Compact status and telemetry |
-| 10,000 mAh power bank | Portable power |
-
-### SOFTWARE & TOOLS
-
-<div align="center">
-
-![Linux](https://img.shields.io/badge/Linux-0b1220?style=flat-square&logo=linux&logoColor=00f5d4)
-![Python](https://img.shields.io/badge/Python-0b1220?style=flat-square&logo=python&logoColor=00f5d4)
-![Raspberry Pi](https://img.shields.io/badge/Raspberry_Pi-0b1220?style=flat-square&logo=raspberrypi&logoColor=00f5d4)
-![ESP32-S3](https://img.shields.io/badge/ESP32--S3-0b1220?style=flat-square&logo=espressif&logoColor=00f5d4)
-![Bash](https://img.shields.io/badge/Bash-0b1220?style=flat-square&logo=gnubash&logoColor=00f5d4)
-
-</div>
-
-- **Kiwix:** offline knowledge library
-- **Scapy:** packet crafting and analysis in authorized lab environments
-- **Linux / XFCE:** lightweight desktop and system experimentation
-- **Python and shell scripts:** automation, diagnostics, and integration
-- **I²C, SPI, USB serial:** display and device communication
-
-### CURRENT BUILD QUEUE
-
-- [ ] Improve desktop responsiveness on Pi 3B+ hardware
-- [ ] Stabilize Raspberry Pi ↔ ESP32-S3 communication
-- [ ] Build OLED status and telemetry screens
-- [ ] Integrate system metrics into the main dashboard
-- [ ] Document setup, wiring, scripts, and troubleshooting
-
----
-
-## `03 // OTHER PROJECT TRACKS`
+## 🖥️ Operating Systems
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### 🎮 GAME DEVELOPMENT
+<div align="center">
+<img src="https://img.shields.io/badge/WINDOWS-POWER_USER-0878D1?style=for-the-badge&logo=windows11&logoColor=white" alt="Windows power user"/>
+</div>
 
-Learning to create games from the ground up.
+I've worked with multiple generations of Windows, from older releases to modern systems and lightweight custom builds.
 
-- Programming and gameplay logic
-- Game engine fundamentals
-- Input, physics, UI, and level design
-- Goal: finish small playable projects
+- Windows XP
+- Windows 7, 8, 10, and 11
+- ReviOS
+- AtlasOS
+- Tiny11
 
-</td>
-<td width="50%" valign="top">
-
-### 🤖 AI / MACHINE LEARNING
-
-Exploring models, data, and practical experiments.
-
-- Python and data handling
-- ML fundamentals and evaluation
-- Small reproducible experiments
-- Interest in edge-friendly workloads
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🌐 WEB & APPS
-
-Turning ideas into useful software.
-
-- HTML, CSS, and JavaScript
-- Private chat concept
-- Lost-and-found app concept
-- Productivity and time-management tools
+Comfortable exploring Windows environments, customization, and performance-focused setups.
 
 </td>
 <td width="50%" valign="top">
 
-### 🧠 SDE FOUNDATIONS
+<div align="center">
+<img src="https://img.shields.io/badge/LINUX-ACTIVELY_LEARNING-222222?style=for-the-badge&logo=linux&logoColor=FCC624" alt="Linux actively learning"/>
+</div>
 
-Preparing for long-term software engineering growth.
+I'm partway through my Linux journey and have become increasingly proficient through hands-on use, especially while working on my cyberdeck.
 
-- Data structures and algorithms
-- Object-oriented programming
-- Databases and software design
-- Git, debugging, and documentation
+- Linux desktop environments and system setup
+- Lightweight configurations and performance tuning
+- Terminal commands and shell scripting
+- Networking tools and troubleshooting
+- Raspberry Pi and embedded Linux experiments
+
+**Current direction:** moving from Linux learner toward confident daily use and deeper system understanding.
 
 </td>
 </tr>
 </table>
 
----
+<div align="center">
+<img src="https://skillicons.dev/icons?i=windows,linux,bash,raspberrypi,python,git&theme=dark" alt="Windows, Linux, Bash, Raspberry Pi, Python and Git icons"/>
+</div>
 
-## `04 // TOOLCHAIN`
+## 🧪 Tools & Technologies
 
 <div align="center">
 
@@ -174,44 +92,40 @@ Preparing for long-term software engineering growth.
 ![C++](https://img.shields.io/badge/C%2B%2B-learning-17252d?style=for-the-badge&logo=cplusplus&logoColor=00f5d4)
 ![Java](https://img.shields.io/badge/Java-learning-17252d?style=for-the-badge&logo=openjdk&logoColor=00f5d4)
 ![JavaScript](https://img.shields.io/badge/JavaScript-exploring-17252d?style=for-the-badge&logo=javascript&logoColor=00f5d4)
-![Linux](https://img.shields.io/badge/Linux-exploring-17252d?style=for-the-badge&logo=linux&logoColor=00f5d4)
-![Git](https://img.shields.io/badge/Git-version_control-17252d?style=for-the-badge&logo=git&logoColor=00f5d4)
+![ESP32](https://img.shields.io/badge/ESP32--S3-exploring-17252d?style=for-the-badge&logo=espressif&logoColor=00f5d4)
 
 </div>
 
-*These are technologies I use, explore, or am actively learning, not a claim of equal proficiency in all of them.*
+*These reflect technologies I use, explore, or am actively learning, not equal proficiency in every item.*
 
-## `05 // LEARNING QUEUE`
+## 🎯 Current Learning
 
-```text
-[ ACTIVE ]  Cyberdeck integration and Linux reliability
-[ ACTIVE ]  Programming fundamentals
-[ NEXT   ]  Finish a small playable game
-[ NEXT   ]  Build and publish a complete web app
-[ LONG   ]  Strengthen DSA and SDE placement preparation
-[ ALWAYS ]  Document, refactor, and ship
-```
+- Programming fundamentals and problem-solving.
+- Data structures and algorithms for SDE placements.
+- Game development through small playable projects.
+- Linux administration and system internals.
+- Improving the cyberdeck's hardware/software integration.
 
-## `06 // GITHUB TELEMETRY`
+## 📊 GitHub Telemetry
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=DEMON895&show_icons=true&hide_border=true&bg_color=0b1220&title_color=00f5d4&text_color=d7e5ee&icon_color=00f5d4" alt="GitHub stats for DEMON895" />
+<img height="155" src="https://github-readme-stats.vercel.app/api?username=DEMON895&show_icons=true&hide_border=true&bg_color=0b1220&title_color=00f5d4&text_color=d7e5ee&icon_color=00f5d4" alt="GitHub stats for DEMON895"/>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DEMON895&layout=compact&hide_border=true&bg_color=0b1220&title_color=00f5d4&text_color=d7e5ee" alt="Top languages for DEMON895" />
+<img height="155" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DEMON895&layout=compact&hide_border=true&bg_color=0b1220&title_color=00f5d4&text_color=d7e5ee" alt="Top languages for DEMON895"/>
 
 </div>
 
-*These cards are provided by a third-party service and may occasionally be unavailable.*
-
-## `07 // CONNECT`
+## 🔗 Connect
 
 <div align="center">
 
-[![GitHub Profile](https://img.shields.io/badge/OPEN_PROFILE-DEMON895-0b1220?style=for-the-badge&logo=github&logoColor=00f5d4)](https://github.com/DEMON895)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow_the_build-0b1220?style=for-the-badge&logo=github&logoColor=00f5d4)](https://github.com/DEMON895)
 
-**Build things. Understand the layers. Keep improving.**
+*Building one system at a time. More experiments incoming.*
 
-`END OF TRANSMISSION // STATUS: LEARNING + BUILDING`
+<img src="https://capsule-render.vercel.app/api?type=rect&height=3&color=0:00f5d4,50:12313a,100:00f5d4" width="100%" alt="Teal divider"/>
+
+`END OF TRANSMISSION // DEMON895`
 
 </div>
