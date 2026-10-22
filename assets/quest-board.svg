@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="300" viewBox="0 0 1100 300" role="img" aria-labelledby="title desc">
+<title id="title">DEMON895 quest board</title>
+<desc id="desc">A game-inspired quest log showing the main cyberdeck quest, learning side quests, and a current challenge. Progress bars are decorative indicators, not live metrics.</desc>
+<rect x="2" y="2" width="1096" height="296" rx="14" fill="#0b1016" stroke="#293946" stroke-width="2"/>
+<rect x="2" y="2" width="1096" height="40" rx="14" fill="#151e28"/>
+<path d="M2 42H1098" stroke="#293946"/>
+<text x="24" y="27" font-family="monospace" font-size="14" fill="#39ff14">QUEST_BOARD.exe</text>
+<text x="1076" y="27" text-anchor="end" font-family="monospace" font-size="12" fill="#9aabba">PLAYER: DEMON895</text>
+<!-- Main quest -->
+<rect x="22" y="58" width="510" height="218" rx="9" fill="#101a23" stroke="#39ff14" stroke-opacity=".7"/>
+<text x="42" y="83" font-family="monospace" font-size="12" fill="#39ff14">[ MAIN QUEST ]</text>
+<text x="42" y="111" font-family="monospace" font-size="18" font-weight="700" fill="#f0f6fc">Build the Raspberry Pi Cyberdeck</text>
+<text x="42" y="137" font-family="monospace" font-size="12" fill="#9aabba">Connect hardware, Linux tools, and custom telemetry.</text>
+<text x="42" y="169" font-family="monospace" font-size="12" fill="#dce8f2">OBJECTIVES</text>
+<text x="42" y="191" font-family="monospace" font-size="12" fill="#39ff14">[x] Assemble core platform</text>
+<text x="42" y="213" font-family="monospace" font-size="12" fill="#ffcc00">[~] Integrate Pi ↔ ESP32-S3</text>
+<text x="42" y="235" font-family="monospace" font-size="12" fill="#39c5ff">[ ] Finish OLED telemetry</text>
+<text x="42" y="259" font-family="monospace" font-size="10" fill="#657989">QUEST STATUS IS MANUALLY MAINTAINED</text>
+<!-- Side quests -->
+<rect x="550" y="58" width="528" height="102" rx="9" fill="#101a23" stroke="#ffcc00" stroke-opacity=".7"/>
+<text x="570" y="82" font-family="monospace" font-size="12" fill="#ffcc00">[ SIDE QUEST 01 ]</text>
+<text x="570" y="106" font-family="monospace" font-size="15" font-weight="700" fill="#f0f6fc">Ship a small playable game</text>
+<text x="570" y="130" font-family="monospace" font-size="12" fill="#9aabba">Learn an engine, build a prototype, iterate.</text>
+<text x="570" y="148" font-family="monospace" font-size="10" fill="#ffcc00">STATUS: IN PROGRESS</text>
+<rect x="550" y="174" width="528" height="102" rx="9" fill="#101a23" stroke="#39c5ff" stroke-opacity=".7"/>
+<text x="570" y="198" font-family="monospace" font-size="12" fill="#39c5ff">[ SIDE QUEST 02 ]</text>
+<text x="570" y="222" font-family="monospace" font-size="15" font-weight="700" fill="#f0f6fc">Level up programming + Linux</text>
+<text x="570" y="246" font-family="monospace" font-size="12" fill="#9aabba">Practice fundamentals, debug, document.</text>
+<text x="570" y="264" font-family="monospace" font-size="10" fill="#39c5ff">STATUS: ONGOING</text>
+</svg>
