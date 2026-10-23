@@ -37,7 +37,7 @@ I'm exploring the space where **hardware, operating systems, software, AI, and g
 
 *GitHub doesn't render arbitrary colored Markdown text consistently. The identity panel above is a custom SVG, so individual text labels can be green, yellow, red, and cyan without coloring the entire badge or block.*
 
-### `> HUD / player_status`
+### `> HUD / Player_Status`
 
 <div align="center">
   <img src="./assets/game-hud.svg" width="100%" alt="Game developer inspired HUD panel with hitboxes, player status, mission progress, and colored terminal text"/>
@@ -51,7 +51,7 @@ I'm exploring the space where **hardware, operating systems, software, AI, and g
 
 
 
-## `> 02 // featured_builds`
+## `> Featured_Builds`
 
 <details open>
 <summary><b>🧰 Raspberry Pi Cyberdeck | Main hardware project</b></summary>
@@ -98,7 +98,7 @@ A project focused on helping users report and find lost items.
 
 > **More builds incoming.** I prefer showing projects with real code, clear documentation, and working demos over listing tools without context.
 
-## `> 03 // system_profile`
+## `> System_Profile`
 
 <table>
 <tr>
@@ -147,7 +147,7 @@ Learning Linux by using it, troubleshooting it, and building with it.
 <img src="https://skillicons.dev/icons?i=windows,linux,bash,raspberrypi,python,git&theme=dark" alt="Windows, Linux, Bash, Raspberry Pi, Python, and Git icons"/>
 </div>
 
-## `> 04 // tools_and_technologies`
+## `> Tools_and_Technologies`
 
 <div align="center">
 
@@ -164,7 +164,7 @@ Learning Linux by using it, troubleshooting it, and building with it.
 
 *These labels describe what I'm learning or exploring, not equal proficiency in every technology.*
 
-## `> 05 // current_objectives`
+## `> Current_Objectives`
 
 - Strengthen programming fundamentals and problem-solving.
 - Practice data structures and algorithms for SDE placements.
@@ -173,7 +173,7 @@ Learning Linux by using it, troubleshooting it, and building with it.
 - Improve the cyberdeck's hardware/software integration.
 - Document projects so others can reproduce and learn from them.
 
-## `> 06 // github_telemetry`
+## `> Github_Telemetry`
 
 <div align="center">
 
@@ -185,7 +185,7 @@ Learning Linux by using it, troubleshooting it, and building with it.
 
 </div>
 
-## `> 07 // connect`
+## `> Connect`
 
 I'm interested in learning from people building with Linux, embedded systems, networking, AI, and game development.
 
