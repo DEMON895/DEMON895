@@ -14,7 +14,7 @@
 
 ---
 
-## `> whoami`
+## `> Who Am I`
 
 <div align="center">
   <img src="./assets/terminal-panel.svg" width="100%" alt="Terminal identity panel with individually colored text and game-style HUD elements"/>
